@@ -114,27 +114,6 @@
   }
 }
 
-  .dark {
-    /* Dark mode luxury theme */
-    --background: 0 0% 4%;
-    --foreground: 0 0% 96%;
-    
-    --card: 0 0% 6%;
-    --card-foreground: 0 0% 96%;
-    
-    --primary: 45 88% 55%;
-    --primary-foreground: 0 0% 8%;
-    
-    --secondary: 0 0% 10%;
-    --secondary-foreground: 0 0% 96%;
-    
-    --muted: 0 0% 8%;
-    --muted-foreground: 0 0% 60%;
-    
-    --border: 0 0% 15%;
-    --input: 0 0% 10%;
-  }
-}
 
 @layer base {
   * {
