@@ -16,6 +16,7 @@ if [ -z "$REPO_URL" ]; then
 fi
 
 echo "Building the project..."
+npm install --legacy-peer-deps
 npm run build
 
 echo "Deploying to gh-pages..."

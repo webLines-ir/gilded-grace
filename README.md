@@ -73,6 +73,9 @@ This project is configured with GitHub Actions for automatic deployment to GitHu
 You can also deploy manually using the provided script:
 
 ```bash
+# Install dependencies (if needed)
+npm install --legacy-peer-deps
+
 # Make sure the script is executable
 chmod +x deploy-gh-pages.sh
 
