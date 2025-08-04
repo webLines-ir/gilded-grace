@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/gilded-grace/', // اضافه کردن base برای GitHub Pages
+ //
   server: {
     host: "::",
     port: 8080,

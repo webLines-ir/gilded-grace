@@ -45,7 +45,7 @@ const Hero = () => {
               <Button className="btn-luxury text-lg px-8 py-6">
                 مشاهده کلکسیون
               </Button>
-              <Button variant="outline" className="btn-elegant text-lg px-8 py-6">
+              <Button variant="outline" className="btn-luxuty text-lg px-8 py-6">
                 درباره ما
               </Button>
             </div>
