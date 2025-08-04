@@ -62,7 +62,32 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### Option 1: Automatic Deployment (Recommended)
+This project is configured with GitHub Actions for automatic deployment to GitHub Pages:
+
+1. Push your code to the `main` or `master` branch
+2. GitHub Actions will automatically build and deploy your project
+3. Your site will be available at `https://your-username.github.io/gilded-grace/`
+
+### Option 2: Manual Deployment
+You can also deploy manually using the provided script:
+
+```bash
+# Make sure the script is executable
+chmod +x deploy-gh-pages.sh
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+### Option 3: Using Lovable
 Simply open [Lovable](https://lovable.dev/projects/41631837-b536-424d-a23a-46a28380456d) and click on Share -> Publish.
+
+### GitHub Pages Setup
+1. Go to your repository settings on GitHub
+2. Navigate to "Pages" section
+3. Under "Source", select "GitHub Actions"
+4. Your site will be automatically deployed on every push to main/master
 
 ## Can I connect a custom domain to my Lovable project?
 
