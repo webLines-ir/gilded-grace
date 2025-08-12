@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <Diamond className="h-8 w-8 text-primary animate-luxury-glow" />
-            <span className="text-2xl font-playfair font-bold text-gradient">
+            <span className="text-2xl font-iranSans font-bold text-gradient">
               جواهر لوکس
             </span>
           </Link>

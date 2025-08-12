@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl lg:text-7xl font-playfair font-bold leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-iranSans font-bold leading-tight">
               <span className="text-gradient">جواهرات</span>
               <br />
               <span className="text-foreground">بی‌نظیر</span>
@@ -35,7 +35,7 @@ const Hero = () => {
             </h1>
 
             {/* Description */}
-            <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-lg font-iranSans">
               مجموعه‌ای منحصر به فرد از زیباترین جواهرات و برندهای معتبر جهان. 
               کیفیت بی‌نظیر، طراحی استثنایی و خدمات حرفه‌ای.
             </p>

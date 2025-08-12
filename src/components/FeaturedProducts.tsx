@@ -45,10 +45,10 @@ const FeaturedProducts = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-playfair font-bold mb-6">
+          <h2 className="text-4xl lg:text-5xl font-iranSans font-bold mb-6">
             <span className="text-gradient">محصولات ویژه</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-iranSans">
             برترین و لوکس‌ترین جواهرات از معتبرترین برندهای جهان
           </p>
         </div>

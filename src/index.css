@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
-
+@import './styles/fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -117,15 +116,20 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border font-iranSans;
   }
 
   body {
-    @apply bg-background text-foreground font-inter;
+    @apply bg-background text-foreground font-iranSans;
+    direction: rtl;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-playfair;
+    @apply font-iranSans font-bold;
+  }
+
+  p, span, div, a, button, input, textarea, label {
+    @apply font-iranSans;
   }
 }
 

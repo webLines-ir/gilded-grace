@@ -106,10 +106,10 @@ const Products = () => {
       {/* Page Header */}
       <div className="pt-32 pb-16 bg-gradient-subtle">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl lg:text-6xl font-playfair font-bold mb-6">
+          <h1 className="text-4xl lg:text-6xl font-iranSans font-bold mb-6">
             <span className="text-gradient">مجموعه محصولات</span>
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-iranSans">
             کاوش در بهترین و لوکس‌ترین جواهرات از برترین برندهای جهان
           </p>
         </div>

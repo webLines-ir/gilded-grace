@@ -137,7 +137,7 @@ const ProductDetail = () => {
             </div>
 
             {/* Product Name */}
-            <h1 className="text-3xl lg:text-4xl font-playfair font-bold">
+            <h1 className="text-3xl lg:text-4xl font-iranSans font-bold">
               {product.name}
             </h1>
 
@@ -240,7 +240,7 @@ const ProductDetail = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Description */}
             <Card className="card-luxury p-6">
-              <h3 className="text-xl font-playfair font-semibold mb-4">توضیحات</h3>
+              <h3 className="text-xl font-iranSans font-semibold mb-4">توضیحات</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 {product.description}
               </p>
@@ -258,7 +258,7 @@ const ProductDetail = () => {
 
             {/* Specifications */}
             <Card className="card-luxury p-6">
-              <h3 className="text-xl font-playfair font-semibold mb-4">مشخصات فنی</h3>
+              <h3 className="text-xl font-iranSans font-semibold mb-4">مشخصات فنی</h3>
               <div className="space-y-3">
                 {Object.entries(product.specifications).map(([key, value]) => (
                   <div key={key} className="flex justify-between items-center">
@@ -271,7 +271,7 @@ const ProductDetail = () => {
 
             {/* Care Instructions */}
             <Card className="card-luxury p-6">
-              <h3 className="text-xl font-playfair font-semibold mb-4">نگهداری</h3>
+              <h3 className="text-xl font-iranSans font-semibold mb-4">نگهداری</h3>
               <div className="space-y-3 text-sm text-muted-foreground">
                 <p>• از تماس با مواد شیمیایی خودداری کنید</p>
                 <p>• قبل از شنا و ورزش، جواهر را خارج کنید</p>
@@ -285,7 +285,7 @@ const ProductDetail = () => {
 
         {/* Related Products */}
         <div>
-          <h2 className="text-3xl font-playfair font-bold mb-8 text-center">
+          <h2 className="text-3xl font-iranSans font-bold mb-8 text-center">
             <span className="text-gradient">محصولات مرتبط</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -298,7 +298,7 @@ const ProductDetail = () => {
                     className="w-32 h-32 object-cover"
                   />
                   <div className="p-6 flex-1">
-                    <h3 className="text-lg font-playfair font-semibold mb-2 group-hover:text-primary transition-colors">
+                    <h3 className="text-lg font-iranSans font-semibold mb-2 group-hover:text-primary transition-colors">
                       {item.name}
                     </h3>
                     <p className="text-2xl font-bold text-gradient">

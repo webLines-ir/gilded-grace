@@ -19,8 +19,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'playfair': ['Playfair Display', 'serif'],
-				'inter': ['Inter', 'sans-serif'],
+				'playfair': ['IRANSans', 'Tahoma', 'Arial', 'sans-serif'],
+				'inter': ['IRANSans', 'Tahoma', 'Arial', 'sans-serif'],
+				'iranSans': ['IRANSans', 'Tahoma', 'Arial', 'sans-serif'],
+				'sans': ['IRANSans', 'Tahoma', 'Arial', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
